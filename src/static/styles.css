@@ -156,7 +156,7 @@ footer {
 }
 
 .participants-list {
-  list-style-position: inside;
+  list-style: none;
   padding-left: 0;
   margin: 0;
 }
@@ -170,4 +170,17 @@ footer {
 
 .participants-list li:hover {
   color: #0066cc;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.delete-participant:hover {
+  color: #8e0000;
 }
